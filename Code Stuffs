@@ -8,14 +8,16 @@ local Converted = {
 	["_InfoStuff"] = Instance.new("Frame");
 	["_UICorner2"] = Instance.new("UICorner");
 	["_chnglog"] = Instance.new("TextLabel");
-	["_Log1"] = Instance.new("TextLabel");
+	["_Log2"] = Instance.new("TextLabel");
 	["_new"] = Instance.new("TextLabel");
 	["_new1"] = Instance.new("TextLabel");
-	["_plned1"] = Instance.new("TextLabel");
 	["_plned"] = Instance.new("TextLabel");
+	["_plned1"] = Instance.new("TextLabel");
+	["_new3"] = Instance.new("TextLabel");
 	["_plned2"] = Instance.new("TextLabel");
-	["_plned3"] = Instance.new("TextLabel");
-	["_plned4"] = Instance.new("TextLabel");
+	["_new2"] = Instance.new("TextLabel");
+	["_Log1"] = Instance.new("TextLabel");
+	["_new4"] = Instance.new("TextLabel");
 	["_PG1"] = Instance.new("Frame");
 	["_UICorner3"] = Instance.new("UICorner");
 	["_pagetitle"] = Instance.new("TextLabel");
@@ -41,49 +43,80 @@ local Converted = {
 	["_toggle3"] = Instance.new("TextButton");
 	["_UICorner12"] = Instance.new("UICorner");
 	["_LocalScript3"] = Instance.new("LocalScript");
-	["_TextLabel"] = Instance.new("TextLabel");
-	["_hbsizetxt"] = Instance.new("TextLabel");
+	["_fly2txt"] = Instance.new("TextLabel");
 	["_UICorner13"] = Instance.new("UICorner");
-	["_less"] = Instance.new("TextButton");
+	["_toggle4"] = Instance.new("TextButton");
 	["_UICorner14"] = Instance.new("UICorner");
 	["_LocalScript4"] = Instance.new("LocalScript");
-	["_more"] = Instance.new("TextButton");
+	["_PG3"] = Instance.new("Frame");
 	["_UICorner15"] = Instance.new("UICorner");
-	["_LocalScript5"] = Instance.new("LocalScript");
-	["_LocalScript6"] = Instance.new("LocalScript");
-	["_Value"] = Instance.new("NumberValue");
-	["_PG2"] = Instance.new("Frame");
-	["_UICorner16"] = Instance.new("UICorner");
 	["_pagetitle1"] = Instance.new("TextLabel");
 	["_Menu1"] = Instance.new("Frame");
-	["_UICorner17"] = Instance.new("UICorner");
+	["_UICorner16"] = Instance.new("UICorner");
 	["_PlrESP"] = Instance.new("TextLabel");
-	["_UICorner18"] = Instance.new("UICorner");
-	["_toggle4"] = Instance.new("TextButton");
-	["_UICorner19"] = Instance.new("UICorner");
-	["_LocalScript7"] = Instance.new("LocalScript");
-	["_NPCESP"] = Instance.new("TextLabel");
-	["_UICorner20"] = Instance.new("UICorner");
+	["_UICorner17"] = Instance.new("UICorner");
 	["_toggle5"] = Instance.new("TextButton");
-	["_UICorner21"] = Instance.new("UICorner");
-	["_LocalScript8"] = Instance.new("LocalScript");
-	["_ItemESP"] = Instance.new("TextLabel");
-	["_UICorner22"] = Instance.new("UICorner");
+	["_UICorner18"] = Instance.new("UICorner");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_NPCESP"] = Instance.new("TextLabel");
+	["_UICorner19"] = Instance.new("UICorner");
 	["_toggle6"] = Instance.new("TextButton");
+	["_UICorner20"] = Instance.new("UICorner");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_ItemESP"] = Instance.new("TextLabel");
+	["_UICorner21"] = Instance.new("UICorner");
+	["_toggle7"] = Instance.new("TextButton");
+	["_UICorner22"] = Instance.new("UICorner");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_NPCESP1"] = Instance.new("TextLabel");
 	["_UICorner23"] = Instance.new("UICorner");
-	["_LocalScript9"] = Instance.new("LocalScript");
-	["_TextLabel1"] = Instance.new("TextLabel");
+	["_toggle8"] = Instance.new("TextButton");
+	["_UICorner24"] = Instance.new("UICorner");
+	["_LocalScript8"] = Instance.new("LocalScript");
 	["_prenextpg"] = Instance.new("Frame");
 	["_Prev"] = Instance.new("TextButton");
-	["_UICorner24"] = Instance.new("UICorner");
-	["_LocalScript10"] = Instance.new("LocalScript");
-	["_Next"] = Instance.new("TextButton");
 	["_UICorner25"] = Instance.new("UICorner");
-	["_LocalScript11"] = Instance.new("LocalScript");
-	["_PG#"] = Instance.new("TextLabel");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_Next"] = Instance.new("TextButton");
 	["_UICorner26"] = Instance.new("UICorner");
+	["_LocalScript10"] = Instance.new("LocalScript");
+	["_PG#"] = Instance.new("TextLabel");
+	["_UICorner27"] = Instance.new("UICorner");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_Value"] = Instance.new("IntValue");
+	["_VRCheck"] = Instance.new("LocalScript");
+	["_notice"] = Instance.new("TextLabel");
+	["_UICorner28"] = Instance.new("UICorner");
+	["_PG2"] = Instance.new("Frame");
+	["_UICorner29"] = Instance.new("UICorner");
+	["_pagetitle2"] = Instance.new("TextLabel");
+	["_Menu2"] = Instance.new("Frame");
+	["_UICorner30"] = Instance.new("UICorner");
+	["_npchbsizetxt"] = Instance.new("TextLabel");
+	["_UICorner31"] = Instance.new("UICorner");
+	["_less"] = Instance.new("TextButton");
+	["_UICorner32"] = Instance.new("UICorner");
 	["_LocalScript12"] = Instance.new("LocalScript");
+	["_more"] = Instance.new("TextButton");
+	["_UICorner33"] = Instance.new("UICorner");
+	["_LocalScript13"] = Instance.new("LocalScript");
+	["_LocalScript14"] = Instance.new("LocalScript");
 	["_Value1"] = Instance.new("IntValue");
+	["_plrhbsizetxt"] = Instance.new("TextLabel");
+	["_UICorner34"] = Instance.new("UICorner");
+	["_less1"] = Instance.new("TextButton");
+	["_UICorner35"] = Instance.new("UICorner");
+	["_LocalScript15"] = Instance.new("LocalScript");
+	["_more1"] = Instance.new("TextButton");
+	["_UICorner36"] = Instance.new("UICorner");
+	["_LocalScript16"] = Instance.new("LocalScript");
+	["_LocalScript17"] = Instance.new("LocalScript");
+	["_Value2"] = Instance.new("IntValue");
+	["_aimbottxt"] = Instance.new("TextLabel");
+	["_UICorner37"] = Instance.new("UICorner");
+	["_toggle9"] = Instance.new("TextButton");
+	["_UICorner38"] = Instance.new("UICorner");
+	["_LocalScript18"] = Instance.new("LocalScript");
 }
 
 -- Properties:
@@ -106,7 +139,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 16)
 Converted["_UICorner"].Parent = Converted["_Main"]
 
 Converted["_Title"].Font = Enum.Font.Oswald
-Converted["_Title"].Text = "Hackeroo's Opposer VR Menu V1"
+Converted["_Title"].Text = "Hackeroo's Opposer VR Menu V2"
 Converted["_Title"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Title"].TextScaled = true
 Converted["_Title"].TextSize = 14
@@ -144,18 +177,18 @@ Converted["_chnglog"].Size = UDim2.new(1, 0, 0.0943502858, 0)
 Converted["_chnglog"].Name = "chnglog"
 Converted["_chnglog"].Parent = Converted["_InfoStuff"]
 
-Converted["_Log1"].Font = Enum.Font.Oswald
-Converted["_Log1"].Text = "V1 - Release"
-Converted["_Log1"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Log1"].TextScaled = true
-Converted["_Log1"].TextSize = 14
-Converted["_Log1"].TextWrapped = true
-Converted["_Log1"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
-Converted["_Log1"].BorderSizePixel = 0
-Converted["_Log1"].Position = UDim2.new(0, 0, 0.108757064, 0)
-Converted["_Log1"].Size = UDim2.new(1, 0, 0.0519774221, 0)
-Converted["_Log1"].Name = "Log1"
-Converted["_Log1"].Parent = Converted["_InfoStuff"]
+Converted["_Log2"].Font = Enum.Font.Oswald
+Converted["_Log2"].Text = "V2 - General Bug Fixes, New Stuff"
+Converted["_Log2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Log2"].TextScaled = true
+Converted["_Log2"].TextSize = 14
+Converted["_Log2"].TextWrapped = true
+Converted["_Log2"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Log2"].BorderSizePixel = 0
+Converted["_Log2"].Position = UDim2.new(0, 0, 0.108757064, 0)
+Converted["_Log2"].Size = UDim2.new(1, 0, 0.0519774221, 0)
+Converted["_Log2"].Name = "Log2"
+Converted["_Log2"].Parent = Converted["_InfoStuff"]
 
 Converted["_new"].Font = Enum.Font.Oswald
 Converted["_new"].Text = "- New Stuff -"
@@ -165,36 +198,23 @@ Converted["_new"].TextSize = 14
 Converted["_new"].TextWrapped = true
 Converted["_new"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_new"].BackgroundTransparency = 1
-Converted["_new"].Position = UDim2.new(0, 0, 0.3601695, 0)
+Converted["_new"].Position = UDim2.new(0, 0, 0.217514127, 0)
 Converted["_new"].Size = UDim2.new(1, 0, 0.0943502858, 0)
 Converted["_new"].Name = "new"
 Converted["_new"].Parent = Converted["_InfoStuff"]
 
 Converted["_new1"].Font = Enum.Font.Oswald
-Converted["_new1"].Text = "nothing :("
+Converted["_new1"].Text = "- Better Fly"
 Converted["_new1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_new1"].TextScaled = true
 Converted["_new1"].TextSize = 14
 Converted["_new1"].TextWrapped = true
 Converted["_new1"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
 Converted["_new1"].BorderSizePixel = 0
-Converted["_new1"].Position = UDim2.new(0, 0, 0.468926549, 0)
+Converted["_new1"].Position = UDim2.new(0, 0, 0.310734451, 0)
 Converted["_new1"].Size = UDim2.new(1, 0, 0.0519774221, 0)
 Converted["_new1"].Name = "new1"
 Converted["_new1"].Parent = Converted["_InfoStuff"]
-
-Converted["_plned1"].Font = Enum.Font.Oswald
-Converted["_plned1"].Text = "- Better Fly"
-Converted["_plned1"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_plned1"].TextScaled = true
-Converted["_plned1"].TextSize = 14
-Converted["_plned1"].TextWrapped = true
-Converted["_plned1"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
-Converted["_plned1"].BorderSizePixel = 0
-Converted["_plned1"].Position = UDim2.new(0, 0, 0.692090392, 0)
-Converted["_plned1"].Size = UDim2.new(1, 0, 0.0519774221, 0)
-Converted["_plned1"].Name = "plned1"
-Converted["_plned1"].Parent = Converted["_InfoStuff"]
 
 Converted["_plned"].Font = Enum.Font.Oswald
 Converted["_plned"].Text = "- Planned Stuff -"
@@ -204,49 +224,88 @@ Converted["_plned"].TextSize = 14
 Converted["_plned"].TextWrapped = true
 Converted["_plned"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_plned"].BackgroundTransparency = 1
-Converted["_plned"].Position = UDim2.new(0, 0, 0.583333373, 0)
+Converted["_plned"].Position = UDim2.new(0, 0, 0.511299431, 0)
 Converted["_plned"].Size = UDim2.new(1, 0, 0.0943502858, 0)
 Converted["_plned"].Name = "plned"
 Converted["_plned"].Parent = Converted["_InfoStuff"]
 
+Converted["_plned1"].Font = Enum.Font.Oswald
+Converted["_plned1"].Text = "- Customizeable Colors"
+Converted["_plned1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_plned1"].TextScaled = true
+Converted["_plned1"].TextSize = 14
+Converted["_plned1"].TextWrapped = true
+Converted["_plned1"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_plned1"].BorderSizePixel = 0
+Converted["_plned1"].Position = UDim2.new(0, 0, 0.61016947, 0)
+Converted["_plned1"].Size = UDim2.new(1, 0, 0.0519774221, 0)
+Converted["_plned1"].Name = "plned1"
+Converted["_plned1"].Parent = Converted["_InfoStuff"]
+
+Converted["_new3"].Font = Enum.Font.Oswald
+Converted["_new3"].Text = "- VR Aimbot"
+Converted["_new3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_new3"].TextScaled = true
+Converted["_new3"].TextSize = 14
+Converted["_new3"].TextWrapped = true
+Converted["_new3"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_new3"].BorderSizePixel = 0
+Converted["_new3"].Position = UDim2.new(0, 0, 0.409604549, 0)
+Converted["_new3"].Size = UDim2.new(1, 0, 0.0519774221, 0)
+Converted["_new3"].Name = "new3"
+Converted["_new3"].Parent = Converted["_InfoStuff"]
+
 Converted["_plned2"].Font = Enum.Font.Oswald
-Converted["_plned2"].Text = "- Customizeable Colors"
+Converted["_plned2"].Text = "- (Unlikely) TP Kill All"
 Converted["_plned2"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_plned2"].TextScaled = true
 Converted["_plned2"].TextSize = 14
 Converted["_plned2"].TextWrapped = true
 Converted["_plned2"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
 Converted["_plned2"].BorderSizePixel = 0
-Converted["_plned2"].Position = UDim2.new(0, 0, 0.742937863, 0)
+Converted["_plned2"].Position = UDim2.new(0, 0, 0.661979556, 0)
 Converted["_plned2"].Size = UDim2.new(1, 0, 0.0519774221, 0)
 Converted["_plned2"].Name = "plned2"
 Converted["_plned2"].Parent = Converted["_InfoStuff"]
 
-Converted["_plned3"].Font = Enum.Font.Oswald
-Converted["_plned3"].Text = "- (Unlikely) VR Aimbot"
-Converted["_plned3"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_plned3"].TextScaled = true
-Converted["_plned3"].TextSize = 14
-Converted["_plned3"].TextWrapped = true
-Converted["_plned3"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
-Converted["_plned3"].BorderSizePixel = 0
-Converted["_plned3"].Position = UDim2.new(0, 0, 0.793785334, 0)
-Converted["_plned3"].Size = UDim2.new(1, 0, 0.0519774221, 0)
-Converted["_plned3"].Name = "plned3"
-Converted["_plned3"].Parent = Converted["_InfoStuff"]
+Converted["_new2"].Font = Enum.Font.Oswald
+Converted["_new2"].Text = "- Player and NPC hitboxes now changeable"
+Converted["_new2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_new2"].TextScaled = true
+Converted["_new2"].TextSize = 14
+Converted["_new2"].TextWrapped = true
+Converted["_new2"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_new2"].BorderSizePixel = 0
+Converted["_new2"].Position = UDim2.new(0, 0, 0.361581922, 0)
+Converted["_new2"].Size = UDim2.new(1, 0, 0.0519774221, 0)
+Converted["_new2"].Name = "new2"
+Converted["_new2"].Parent = Converted["_InfoStuff"]
 
-Converted["_plned4"].Font = Enum.Font.Oswald
-Converted["_plned4"].Text = "- (Unlikely) TP Kill All"
-Converted["_plned4"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_plned4"].TextScaled = true
-Converted["_plned4"].TextSize = 14
-Converted["_plned4"].TextWrapped = true
-Converted["_plned4"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
-Converted["_plned4"].BorderSizePixel = 0
-Converted["_plned4"].Position = UDim2.new(0, 0, 0.845595419, 0)
-Converted["_plned4"].Size = UDim2.new(1, 0, 0.0519774221, 0)
-Converted["_plned4"].Name = "plned4"
-Converted["_plned4"].Parent = Converted["_InfoStuff"]
+Converted["_Log1"].Font = Enum.Font.Oswald
+Converted["_Log1"].Text = "V1 - Release"
+Converted["_Log1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Log1"].TextScaled = true
+Converted["_Log1"].TextSize = 14
+Converted["_Log1"].TextWrapped = true
+Converted["_Log1"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Log1"].BorderSizePixel = 0
+Converted["_Log1"].Position = UDim2.new(0, 0, 0.15960452, 0)
+Converted["_Log1"].Size = UDim2.new(1, 0, 0.0519774221, 0)
+Converted["_Log1"].Name = "Log1"
+Converted["_Log1"].Parent = Converted["_InfoStuff"]
+
+Converted["_new4"].Font = Enum.Font.Oswald
+Converted["_new4"].Text = "- Fullbright"
+Converted["_new4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_new4"].TextScaled = true
+Converted["_new4"].TextSize = 14
+Converted["_new4"].TextWrapped = true
+Converted["_new4"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_new4"].BorderSizePixel = 0
+Converted["_new4"].Position = UDim2.new(0, 0, 0.46045202, 0)
+Converted["_new4"].Size = UDim2.new(1, 0, 0.0519774221, 0)
+Converted["_new4"].Name = "new4"
+Converted["_new4"].Parent = Converted["_InfoStuff"]
 
 Converted["_PG1"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
 Converted["_PG1"].Position = UDim2.new(0.350089759, 0, 0.132941172, 0)
@@ -341,7 +400,7 @@ Converted["_lgravtxt"].TextScaled = true
 Converted["_lgravtxt"].TextSize = 14
 Converted["_lgravtxt"].TextWrapped = true
 Converted["_lgravtxt"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
-Converted["_lgravtxt"].Position = UDim2.new(0.0930000022, 0, 0.347000003, 0)
+Converted["_lgravtxt"].Position = UDim2.new(0.585929394, 0, 0.0379873514, 0)
 Converted["_lgravtxt"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
 Converted["_lgravtxt"].Name = "lgravtxt"
 Converted["_lgravtxt"].Parent = Converted["_Menu"]
@@ -369,7 +428,7 @@ Converted["_plattxt"].TextScaled = true
 Converted["_plattxt"].TextSize = 14
 Converted["_plattxt"].TextWrapped = true
 Converted["_plattxt"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
-Converted["_plattxt"].Position = UDim2.new(0.0930000022, 0, 0.502620637, 0)
+Converted["_plattxt"].Position = UDim2.new(0.585929394, 0, 0.188976407, 0)
 Converted["_plattxt"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
 Converted["_plattxt"].Name = "plattxt"
 Converted["_plattxt"].Parent = Converted["_Menu"]
@@ -390,74 +449,43 @@ Converted["_toggle3"].Parent = Converted["_plattxt"]
 Converted["_UICorner12"].CornerRadius = UDim.new(0, 16)
 Converted["_UICorner12"].Parent = Converted["_toggle3"]
 
-Converted["_TextLabel"].Font = Enum.Font.Oswald
-Converted["_TextLabel"].Text = "I'll add more I swear"
-Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel"].TextScaled = true
-Converted["_TextLabel"].TextSize = 14
-Converted["_TextLabel"].TextWrapped = true
-Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel"].BackgroundTransparency = 1
-Converted["_TextLabel"].Position = UDim2.new(0.661616445, 0, 0.430735707, 0)
-Converted["_TextLabel"].Size = UDim2.new(0.204040408, 0, 0.138134971, 0)
-Converted["_TextLabel"].Parent = Converted["_Menu"]
-
-Converted["_hbsizetxt"].Font = Enum.Font.Oswald
-Converted["_hbsizetxt"].Text = "Hitbox Size - 1"
-Converted["_hbsizetxt"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_hbsizetxt"].TextScaled = true
-Converted["_hbsizetxt"].TextSize = 14
-Converted["_hbsizetxt"].TextWrapped = true
-Converted["_hbsizetxt"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
-Converted["_hbsizetxt"].Position = UDim2.new(0.573808134, 0, 0.0371482186, 0)
-Converted["_hbsizetxt"].Size = UDim2.new(0.351515144, 0, 0.118308313, 0)
-Converted["_hbsizetxt"].Name = "hbsizetxt"
-Converted["_hbsizetxt"].Parent = Converted["_Menu"]
+Converted["_fly2txt"].Font = Enum.Font.Oswald
+Converted["_fly2txt"].Text = "Fly V2"
+Converted["_fly2txt"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_fly2txt"].TextScaled = true
+Converted["_fly2txt"].TextSize = 14
+Converted["_fly2txt"].TextWrapped = true
+Converted["_fly2txt"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_fly2txt"].Position = UDim2.new(0.0930100977, 0, 0.344000012, 0)
+Converted["_fly2txt"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
+Converted["_fly2txt"].Name = "fly2txt"
+Converted["_fly2txt"].Parent = Converted["_Menu"]
 
 Converted["_UICorner13"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner13"].Parent = Converted["_hbsizetxt"]
+Converted["_UICorner13"].Parent = Converted["_fly2txt"]
 
-Converted["_less"].Font = Enum.Font.Oswald
-Converted["_less"].Text = "<"
-Converted["_less"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_less"].TextScaled = true
-Converted["_less"].TextSize = 14
-Converted["_less"].TextWrapped = true
-Converted["_less"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
-Converted["_less"].Position = UDim2.new(-0.170038074, 0, 0, 0)
-Converted["_less"].Size = UDim2.new(0.144046351, 0, 1, 0)
-Converted["_less"].Name = "less"
-Converted["_less"].Parent = Converted["_hbsizetxt"]
+Converted["_toggle4"].Font = Enum.Font.SourceSans
+Converted["_toggle4"].Text = ""
+Converted["_toggle4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_toggle4"].TextSize = 14
+Converted["_toggle4"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 50.00000461935997)
+Converted["_toggle4"].Position = UDim2.new(-0.194207177, 0, 0, 0)
+Converted["_toggle4"].Size = UDim2.new(0.168215543, 0, 1, 0)
+Converted["_toggle4"].Name = "toggle"
+Converted["_toggle4"].Parent = Converted["_fly2txt"]
 
 Converted["_UICorner14"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner14"].Parent = Converted["_less"]
+Converted["_UICorner14"].Parent = Converted["_toggle4"]
 
-Converted["_more"].Font = Enum.Font.Oswald
-Converted["_more"].Text = ">"
-Converted["_more"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_more"].TextScaled = true
-Converted["_more"].TextSize = 14
-Converted["_more"].TextWrapped = true
-Converted["_more"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
-Converted["_more"].Position = UDim2.new(1.03237903, 0, 0, 0)
-Converted["_more"].Size = UDim2.new(0.144046351, 0, 1, 0)
-Converted["_more"].Name = "more"
-Converted["_more"].Parent = Converted["_hbsizetxt"]
+Converted["_PG3"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_PG3"].Position = UDim2.new(0.350089759, 0, 0.132941172, 0)
+Converted["_PG3"].Size = UDim2.new(0.634350598, 0, 0.833000004, 0)
+Converted["_PG3"].Visible = false
+Converted["_PG3"].Name = "PG3"
+Converted["_PG3"].Parent = Converted["_Main"]
 
 Converted["_UICorner15"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner15"].Parent = Converted["_more"]
-
-Converted["_Value"].Parent = Converted["_hbsizetxt"]
-
-Converted["_PG2"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
-Converted["_PG2"].Position = UDim2.new(0.350089759, 0, 0.132941172, 0)
-Converted["_PG2"].Size = UDim2.new(0.634350598, 0, 0.833000004, 0)
-Converted["_PG2"].Visible = false
-Converted["_PG2"].Name = "PG2"
-Converted["_PG2"].Parent = Converted["_Main"]
-
-Converted["_UICorner16"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner16"].Parent = Converted["_PG2"]
+Converted["_UICorner15"].Parent = Converted["_PG3"]
 
 Converted["_pagetitle1"].Font = Enum.Font.Oswald
 Converted["_pagetitle1"].Text = "Visual"
@@ -469,16 +497,16 @@ Converted["_pagetitle1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_pagetitle1"].BackgroundTransparency = 1
 Converted["_pagetitle1"].Size = UDim2.new(1, 0, 0.100000001, 0)
 Converted["_pagetitle1"].Name = "pagetitle"
-Converted["_pagetitle1"].Parent = Converted["_PG2"]
+Converted["_pagetitle1"].Parent = Converted["_PG3"]
 
 Converted["_Menu1"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
 Converted["_Menu1"].Position = UDim2.new(0.033018928, 0, 0.121177912, 0)
 Converted["_Menu1"].Size = UDim2.new(0.933962226, 0, 0.771414578, 0)
 Converted["_Menu1"].Name = "Menu"
-Converted["_Menu1"].Parent = Converted["_PG2"]
+Converted["_Menu1"].Parent = Converted["_PG3"]
 
-Converted["_UICorner17"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner17"].Parent = Converted["_Menu1"]
+Converted["_UICorner16"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner16"].Parent = Converted["_Menu1"]
 
 Converted["_PlrESP"].Font = Enum.Font.Oswald
 Converted["_PlrESP"].Text = "Player ESP"
@@ -492,21 +520,21 @@ Converted["_PlrESP"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
 Converted["_PlrESP"].Name = "PlrESP"
 Converted["_PlrESP"].Parent = Converted["_Menu1"]
 
+Converted["_UICorner17"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner17"].Parent = Converted["_PlrESP"]
+
+Converted["_toggle5"].Font = Enum.Font.SourceSans
+Converted["_toggle5"].Text = ""
+Converted["_toggle5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_toggle5"].TextSize = 14
+Converted["_toggle5"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 50.00000461935997)
+Converted["_toggle5"].Position = UDim2.new(-0.194207177, 0, 0, 0)
+Converted["_toggle5"].Size = UDim2.new(0.168215543, 0, 1, 0)
+Converted["_toggle5"].Name = "toggle"
+Converted["_toggle5"].Parent = Converted["_PlrESP"]
+
 Converted["_UICorner18"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner18"].Parent = Converted["_PlrESP"]
-
-Converted["_toggle4"].Font = Enum.Font.SourceSans
-Converted["_toggle4"].Text = ""
-Converted["_toggle4"].TextColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_toggle4"].TextSize = 14
-Converted["_toggle4"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 50.00000461935997)
-Converted["_toggle4"].Position = UDim2.new(-0.194207177, 0, 0, 0)
-Converted["_toggle4"].Size = UDim2.new(0.168215543, 0, 1, 0)
-Converted["_toggle4"].Name = "toggle"
-Converted["_toggle4"].Parent = Converted["_PlrESP"]
-
-Converted["_UICorner19"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner19"].Parent = Converted["_toggle4"]
+Converted["_UICorner18"].Parent = Converted["_toggle5"]
 
 Converted["_NPCESP"].Font = Enum.Font.Oswald
 Converted["_NPCESP"].Text = "NPC ESP"
@@ -520,36 +548,8 @@ Converted["_NPCESP"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
 Converted["_NPCESP"].Name = "NPCESP"
 Converted["_NPCESP"].Parent = Converted["_Menu1"]
 
-Converted["_UICorner20"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner20"].Parent = Converted["_NPCESP"]
-
-Converted["_toggle5"].Font = Enum.Font.SourceSans
-Converted["_toggle5"].Text = ""
-Converted["_toggle5"].TextColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_toggle5"].TextSize = 14
-Converted["_toggle5"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 50.00000461935997)
-Converted["_toggle5"].Position = UDim2.new(-0.194207177, 0, 0, 0)
-Converted["_toggle5"].Size = UDim2.new(0.168215543, 0, 1, 0)
-Converted["_toggle5"].Name = "toggle"
-Converted["_toggle5"].Parent = Converted["_NPCESP"]
-
-Converted["_UICorner21"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner21"].Parent = Converted["_toggle5"]
-
-Converted["_ItemESP"].Font = Enum.Font.Oswald
-Converted["_ItemESP"].Text = "Item ESP"
-Converted["_ItemESP"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_ItemESP"].TextScaled = true
-Converted["_ItemESP"].TextSize = 14
-Converted["_ItemESP"].TextWrapped = true
-Converted["_ItemESP"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
-Converted["_ItemESP"].Position = UDim2.new(0.0930000022, 0, 0.347000003, 0)
-Converted["_ItemESP"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
-Converted["_ItemESP"].Name = "ItemESP"
-Converted["_ItemESP"].Parent = Converted["_Menu1"]
-
-Converted["_UICorner22"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner22"].Parent = Converted["_ItemESP"]
+Converted["_UICorner19"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner19"].Parent = Converted["_NPCESP"]
 
 Converted["_toggle6"].Font = Enum.Font.SourceSans
 Converted["_toggle6"].Text = ""
@@ -559,27 +559,72 @@ Converted["_toggle6"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 
 Converted["_toggle6"].Position = UDim2.new(-0.194207177, 0, 0, 0)
 Converted["_toggle6"].Size = UDim2.new(0.168215543, 0, 1, 0)
 Converted["_toggle6"].Name = "toggle"
-Converted["_toggle6"].Parent = Converted["_ItemESP"]
+Converted["_toggle6"].Parent = Converted["_NPCESP"]
+
+Converted["_UICorner20"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner20"].Parent = Converted["_toggle6"]
+
+Converted["_ItemESP"].Font = Enum.Font.Oswald
+Converted["_ItemESP"].Text = "Item ESP"
+Converted["_ItemESP"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ItemESP"].TextScaled = true
+Converted["_ItemESP"].TextSize = 14
+Converted["_ItemESP"].TextWrapped = true
+Converted["_ItemESP"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_ItemESP"].Position = UDim2.new(0.585929394, 0, 0.0375895798, 0)
+Converted["_ItemESP"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
+Converted["_ItemESP"].Name = "ItemESP"
+Converted["_ItemESP"].Parent = Converted["_Menu1"]
+
+Converted["_UICorner21"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner21"].Parent = Converted["_ItemESP"]
+
+Converted["_toggle7"].Font = Enum.Font.SourceSans
+Converted["_toggle7"].Text = ""
+Converted["_toggle7"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_toggle7"].TextSize = 14
+Converted["_toggle7"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 50.00000461935997)
+Converted["_toggle7"].Position = UDim2.new(-0.194207177, 0, 0, 0)
+Converted["_toggle7"].Size = UDim2.new(0.168215543, 0, 1, 0)
+Converted["_toggle7"].Name = "toggle"
+Converted["_toggle7"].Parent = Converted["_ItemESP"]
+
+Converted["_UICorner22"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner22"].Parent = Converted["_toggle7"]
+
+Converted["_NPCESP1"].Font = Enum.Font.Oswald
+Converted["_NPCESP1"].Text = "Fullbright"
+Converted["_NPCESP1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_NPCESP1"].TextScaled = true
+Converted["_NPCESP1"].TextSize = 14
+Converted["_NPCESP1"].TextWrapped = true
+Converted["_NPCESP1"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_NPCESP1"].Position = UDim2.new(0.585858703, 0, 0.188575581, 0)
+Converted["_NPCESP1"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
+Converted["_NPCESP1"].Name = "NPCESP"
+Converted["_NPCESP1"].Parent = Converted["_Menu1"]
 
 Converted["_UICorner23"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner23"].Parent = Converted["_toggle6"]
+Converted["_UICorner23"].Parent = Converted["_NPCESP1"]
 
-Converted["_TextLabel1"].Font = Enum.Font.Oswald
-Converted["_TextLabel1"].Text = "I'll add more I swear"
-Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel1"].TextScaled = true
-Converted["_TextLabel1"].TextSize = 14
-Converted["_TextLabel1"].TextWrapped = true
-Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextLabel1"].BackgroundTransparency = 1
-Converted["_TextLabel1"].Position = UDim2.new(0.661616445, 0, 0.430735707, 0)
-Converted["_TextLabel1"].Size = UDim2.new(0.204040408, 0, 0.138134971, 0)
-Converted["_TextLabel1"].Parent = Converted["_Menu1"]
+Converted["_toggle8"].Font = Enum.Font.SourceSans
+Converted["_toggle8"].Text = ""
+Converted["_toggle8"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_toggle8"].TextSize = 14
+Converted["_toggle8"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 50.00000461935997)
+Converted["_toggle8"].Position = UDim2.new(-0.194207177, 0, 0, 0)
+Converted["_toggle8"].Size = UDim2.new(0.168215543, 0, 1, 0)
+Converted["_toggle8"].Name = "toggle"
+Converted["_toggle8"].Parent = Converted["_NPCESP1"]
+
+Converted["_UICorner24"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner24"].Parent = Converted["_toggle8"]
 
 Converted["_prenextpg"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_prenextpg"].BackgroundTransparency = 0.9900000095367432
 Converted["_prenextpg"].Position = UDim2.new(0.356672645, 0, 0.887058914, 0)
 Converted["_prenextpg"].Size = UDim2.new(0.100000016, 0, 0.068235293, 0)
+Converted["_prenextpg"].ZIndex = 2
 Converted["_prenextpg"].Name = "prenextpg"
 Converted["_prenextpg"].Parent = Converted["_Main"]
 
@@ -595,8 +640,8 @@ Converted["_Prev"].ZIndex = 2
 Converted["_Prev"].Name = "Prev"
 Converted["_Prev"].Parent = Converted["_prenextpg"]
 
-Converted["_UICorner24"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner24"].Parent = Converted["_Prev"]
+Converted["_UICorner25"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner25"].Parent = Converted["_Prev"]
 
 Converted["_Next"].Font = Enum.Font.Oswald
 Converted["_Next"].Text = ">"
@@ -611,8 +656,8 @@ Converted["_Next"].ZIndex = 2
 Converted["_Next"].Name = "Next"
 Converted["_Next"].Parent = Converted["_prenextpg"]
 
-Converted["_UICorner25"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner25"].Parent = Converted["_Next"]
+Converted["_UICorner26"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner26"].Parent = Converted["_Next"]
 
 Converted["_PG#"].Font = Enum.Font.Oswald
 Converted["_PG#"].Text = "n/a"
@@ -627,10 +672,181 @@ Converted["_PG#"].ZIndex = 2
 Converted["_PG#"].Name = "PG#"
 Converted["_PG#"].Parent = Converted["_prenextpg"]
 
-Converted["_UICorner26"].CornerRadius = UDim.new(0, 16)
-Converted["_UICorner26"].Parent = Converted["_PG#"]
+Converted["_UICorner27"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner27"].Parent = Converted["_PG#"]
 
-Converted["_Value1"].Parent = Converted["_prenextpg"]
+Converted["_Value"].Parent = Converted["_prenextpg"]
+
+Converted["_notice"].Font = Enum.Font.Oswald
+Converted["_notice"].Text = "NOTICE: This script should be used in VR only."
+Converted["_notice"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_notice"].TextScaled = true
+Converted["_notice"].TextSize = 14
+Converted["_notice"].TextWrapped = true
+Converted["_notice"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_notice"].BorderSizePixel = 0
+Converted["_notice"].Position = UDim2.new(0.521286666, 0, 0.876470685, 0)
+Converted["_notice"].Size = UDim2.new(0.44160974, 0, 0.0894116834, 0)
+Converted["_notice"].Visible = false
+Converted["_notice"].ZIndex = 2
+Converted["_notice"].Name = "notice"
+Converted["_notice"].Parent = Converted["_Main"]
+
+Converted["_UICorner28"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner28"].Parent = Converted["_notice"]
+
+Converted["_PG2"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_PG2"].Position = UDim2.new(0.350089759, 0, 0.132941172, 0)
+Converted["_PG2"].Size = UDim2.new(0.634350598, 0, 0.833000004, 0)
+Converted["_PG2"].Visible = false
+Converted["_PG2"].Name = "PG2"
+Converted["_PG2"].Parent = Converted["_Main"]
+
+Converted["_UICorner29"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner29"].Parent = Converted["_PG2"]
+
+Converted["_pagetitle2"].Font = Enum.Font.Oswald
+Converted["_pagetitle2"].Text = "OP"
+Converted["_pagetitle2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_pagetitle2"].TextScaled = true
+Converted["_pagetitle2"].TextSize = 14
+Converted["_pagetitle2"].TextWrapped = true
+Converted["_pagetitle2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_pagetitle2"].BackgroundTransparency = 1
+Converted["_pagetitle2"].Size = UDim2.new(1, 0, 0.100000001, 0)
+Converted["_pagetitle2"].Name = "pagetitle"
+Converted["_pagetitle2"].Parent = Converted["_PG2"]
+
+Converted["_Menu2"].BackgroundColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Menu2"].Position = UDim2.new(0.033018928, 0, 0.121177912, 0)
+Converted["_Menu2"].Size = UDim2.new(0.933962226, 0, 0.771414578, 0)
+Converted["_Menu2"].Name = "Menu"
+Converted["_Menu2"].Parent = Converted["_PG2"]
+
+Converted["_UICorner30"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner30"].Parent = Converted["_Menu2"]
+
+Converted["_npchbsizetxt"].Font = Enum.Font.Oswald
+Converted["_npchbsizetxt"].Text = "Hitbox Size - 1"
+Converted["_npchbsizetxt"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_npchbsizetxt"].TextScaled = true
+Converted["_npchbsizetxt"].TextSize = 14
+Converted["_npchbsizetxt"].TextWrapped = true
+Converted["_npchbsizetxt"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_npchbsizetxt"].Position = UDim2.new(0.573808134, 0, 0.0371482223, 0)
+Converted["_npchbsizetxt"].Size = UDim2.new(0.351515144, 0, 0.118308313, 0)
+Converted["_npchbsizetxt"].Name = "npchbsizetxt"
+Converted["_npchbsizetxt"].Parent = Converted["_Menu2"]
+
+Converted["_UICorner31"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner31"].Parent = Converted["_npchbsizetxt"]
+
+Converted["_less"].Font = Enum.Font.Oswald
+Converted["_less"].Text = "<"
+Converted["_less"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_less"].TextScaled = true
+Converted["_less"].TextSize = 14
+Converted["_less"].TextWrapped = true
+Converted["_less"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_less"].Position = UDim2.new(-0.170038074, 0, 0, 0)
+Converted["_less"].Size = UDim2.new(0.144046351, 0, 1, 0)
+Converted["_less"].Name = "less"
+Converted["_less"].Parent = Converted["_npchbsizetxt"]
+
+Converted["_UICorner32"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner32"].Parent = Converted["_less"]
+
+Converted["_more"].Font = Enum.Font.Oswald
+Converted["_more"].Text = ">"
+Converted["_more"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_more"].TextScaled = true
+Converted["_more"].TextSize = 14
+Converted["_more"].TextWrapped = true
+Converted["_more"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_more"].Position = UDim2.new(1.03237903, 0, 0, 0)
+Converted["_more"].Size = UDim2.new(0.144046351, 0, 1, 0)
+Converted["_more"].Name = "more"
+Converted["_more"].Parent = Converted["_npchbsizetxt"]
+
+Converted["_UICorner33"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner33"].Parent = Converted["_more"]
+
+Converted["_Value1"].Parent = Converted["_npchbsizetxt"]
+
+Converted["_plrhbsizetxt"].Font = Enum.Font.Oswald
+Converted["_plrhbsizetxt"].Text = "Hitbox Size - 1"
+Converted["_plrhbsizetxt"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_plrhbsizetxt"].TextScaled = true
+Converted["_plrhbsizetxt"].TextSize = 14
+Converted["_plrhbsizetxt"].TextWrapped = true
+Converted["_plrhbsizetxt"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_plrhbsizetxt"].Position = UDim2.new(0.0818888545, 0, 0.0371482186, 0)
+Converted["_plrhbsizetxt"].Size = UDim2.new(0.351515144, 0, 0.118308313, 0)
+Converted["_plrhbsizetxt"].Name = "plrhbsizetxt"
+Converted["_plrhbsizetxt"].Parent = Converted["_Menu2"]
+
+Converted["_UICorner34"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner34"].Parent = Converted["_plrhbsizetxt"]
+
+Converted["_less1"].Font = Enum.Font.Oswald
+Converted["_less1"].Text = "<"
+Converted["_less1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_less1"].TextScaled = true
+Converted["_less1"].TextSize = 14
+Converted["_less1"].TextWrapped = true
+Converted["_less1"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_less1"].Position = UDim2.new(-0.170038074, 0, 0, 0)
+Converted["_less1"].Size = UDim2.new(0.144046351, 0, 1, 0)
+Converted["_less1"].Name = "less"
+Converted["_less1"].Parent = Converted["_plrhbsizetxt"]
+
+Converted["_UICorner35"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner35"].Parent = Converted["_less1"]
+
+Converted["_more1"].Font = Enum.Font.Oswald
+Converted["_more1"].Text = ">"
+Converted["_more1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_more1"].TextScaled = true
+Converted["_more1"].TextSize = 14
+Converted["_more1"].TextWrapped = true
+Converted["_more1"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_more1"].Position = UDim2.new(1.03237903, 0, 0, 0)
+Converted["_more1"].Size = UDim2.new(0.144046351, 0, 1, 0)
+Converted["_more1"].Name = "more"
+Converted["_more1"].Parent = Converted["_plrhbsizetxt"]
+
+Converted["_UICorner36"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner36"].Parent = Converted["_more1"]
+
+Converted["_Value2"].Parent = Converted["_plrhbsizetxt"]
+
+Converted["_aimbottxt"].Font = Enum.Font.Oswald
+Converted["_aimbottxt"].Text = "VR Aimbot"
+Converted["_aimbottxt"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_aimbottxt"].TextScaled = true
+Converted["_aimbottxt"].TextSize = 14
+Converted["_aimbottxt"].TextWrapped = true
+Converted["_aimbottxt"].BackgroundColor3 = Color3.fromRGB(30.00000201165676, 30.00000201165676, 30.00000201165676)
+Converted["_aimbottxt"].Position = UDim2.new(0.0929293111, 0, 0.190406412, 0)
+Converted["_aimbottxt"].Size = UDim2.new(0.404040426, 0, 0.118308313, 0)
+Converted["_aimbottxt"].Name = "aimbottxt"
+Converted["_aimbottxt"].Parent = Converted["_Menu2"]
+
+Converted["_UICorner37"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner37"].Parent = Converted["_aimbottxt"]
+
+Converted["_toggle9"].Font = Enum.Font.SourceSans
+Converted["_toggle9"].Text = ""
+Converted["_toggle9"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_toggle9"].TextSize = 14
+Converted["_toggle9"].BackgroundColor3 = Color3.fromRGB(255, 50.00000461935997, 50.00000461935997)
+Converted["_toggle9"].Position = UDim2.new(-0.194207177, 0, 0, 0)
+Converted["_toggle9"].Size = UDim2.new(0.168215543, 0, 1, 0)
+Converted["_toggle9"].Name = "toggle"
+Converted["_toggle9"].Parent = Converted["_aimbottxt"]
+
+Converted["_UICorner38"].CornerRadius = UDim.new(0, 16)
+Converted["_UICorner38"].Parent = Converted["_toggle9"]
 
 -- Fake Module Scripts:
 
@@ -639,7 +855,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function BLWO_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.ColorPulse
+local function IITXY_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.ColorPulse
     local script = Instance.new("LocalScript")
     script.Name = "ColorPulse"
     script.Parent = Converted["_Main"]
@@ -669,7 +885,7 @@ local function BLWO_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Mai
 		Menu.BackgroundColor3 = Color3.new(i/3,0,i)
 	end
 end
-local function CFRK_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.lasertxt.toggle.LocalScript
+local function GMDT_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.lasertxt.toggle.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_toggle"]
@@ -713,7 +929,7 @@ local function CFRK_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Mai
 		end
 	end
 end
-local function FOXUUB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.flytxt.toggle.LocalScript
+local function PUZENDD_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.flytxt.toggle.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_toggle1"]
@@ -737,6 +953,8 @@ local function FOXUUB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.M
 	Fly.Massless = true
 	Fly.Anchored = true
 	Fly.Color = Color3.new(0.3,0,1)
+	Fly.Material = Enum.Material.Neon
+	Fly.Transparency = 0.5
 	local Offset = CFrame.new(1.5,0,2.5)
 	
 	button.MouseButton1Click:Connect(function()
@@ -761,7 +979,7 @@ local function FOXUUB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.M
 		end
 	end
 end
-local function RAKVNW_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.lgravtxt.toggle.LocalScript
+local function VSDSWFY_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.lgravtxt.toggle.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_toggle2"]
@@ -797,7 +1015,7 @@ local function RAKVNW_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.M
 		end
 	end
 end
-local function MFZAX_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.plattxt.toggle.LocalScript
+local function QUTT_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.plattxt.toggle.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_toggle3"]
@@ -823,12 +1041,18 @@ local function MFZAX_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Ma
 	lplat.Massless = true
 	lplat.Parent = lhand
 	lplat.Size = Vector3.new(1,1,0.1)
+	lplat.Color = Color3.new(0.3,0,1)
+	lplat.Material = Enum.Material.Neon
+	lplat.Position = Vector3.new(0,-100,0)
 	local rplat = Instance.new("Part")
 	rplat.Anchored = true
 	rplat.CanCollide = true
 	rplat.Massless = true
 	rplat.Parent = rhand
 	rplat.Size = Vector3.new(1,1,0.1)
+	rplat.Color = Color3.new(0.3,0,1)
+	rplat.Material = Enum.Material.Neon
+	rplat.Position = Vector3.new(0,-100,0)
 	
 	button.MouseButton1Click:Connect(function()
 		if on then
@@ -841,9 +1065,6 @@ local function MFZAX_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Ma
 	end)
 	
 	while task.wait() do
-		if on then
-			
-		end
 		UIS.InputBegan:Connect(function(input)
 			if input.KeyCode == Enum.KeyCode.ButtonX then
 				if on then
@@ -866,73 +1087,7 @@ local function MFZAX_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Ma
 		end)
 	end
 end
-local function QLHAGL_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.hbsizetxt.less.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_less"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Value.Value-=0.1
-		print(script.Parent.Parent.Value.Value)
-	end)
-end
-local function LRUWJ_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.hbsizetxt.more.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_more"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Value.Value+=0.1
-		print(script.Parent.Parent.Value.Value)
-	end)
-end
-local function ARAE_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.hbsizetxt.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_hbsizetxt"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	local Value = script.Parent.Value
-	Value.Value = 0.5
-	
-	while task.wait() do
-		if Value.Value < 0.5 then
-			Value.Value = 0.5
-		end
-		for i,v in pairs(game.Players:GetChildren()) do
-			if v ~= game.Players.LocalPlayer then
-				if v.Character then
-					v.Character:WaitForChild("Head").Size = Vector3.new(Value.Value,Value.Value,Value.Value)
-				end
-			end
-		end
-		script.Parent.Text = "Hitbox Size - "..math.floor(Value.Value*(10^2))/(10^2)
-	end
-end
-local function ZUIVWB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.PlrESP.toggle.LocalScript
+local function GTPML_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG1.Menu.fly2txt.toggle.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_toggle4"]
@@ -947,13 +1102,61 @@ local function ZUIVWB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.M
 
 	local button = script.Parent
 	local on = false
+	local Head = game.Workspace:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Head")
+	local LeftArm = game.Workspace:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Left Arm")
+	local UIS = game:GetService("UserInputService")
+	local Fly = Instance.new("Part")
+	Fly.Parent = LeftArm
+	Fly.Size = Vector3.new(3,0.5,3)
+	Fly.CanCollide = true
+	Fly.Massless = true
+	Fly.Anchored = true
+	Fly.Color = Color3.new(0.3,0,1)
+	Fly.Material = Enum.Material.Neon
+	Fly.Transparency = 0.5
+	
+	button.MouseButton1Click:Connect(function()
+		if on then
+			on = false
+			button.BackgroundColor3 = Color3.new(1,0.2,0.2)
+		else
+			on = true
+			button.BackgroundColor3 = Color3.new(0.2,1,0.2)
+		end
+	end)
+	
+	while task.wait() do
+		if on then
+			if UIS:IsGamepadButtonDown(Enum.UserInputType.Gamepad1,Enum.KeyCode.ButtonX) then
+				Fly.Position = Vector3.new(Head.CFrame.X,LeftArm.CFrame.Y-3.2,Head.CFrame.Z)
+			else
+				Fly.CFrame = CFrame.new(0,-100,0)
+			end
+		else
+			Fly.CFrame = CFrame.new(0,-100,0)
+		end
+	end
+end
+local function DCHBBS_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG3.Menu.PlrESP.toggle.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_toggle5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local on = false
 	
 	function createESP(player)
-		if player.Character:WaitForChild("Torso"):FindFirstChild("BillboardGui") == nil then
-			print(player)
-			local plr = player.Character
+		if not player.Character:WaitForChild("Torso"):FindFirstChild("BillboardGui") then
 			local bgui = Instance.new("BillboardGui")
-			bgui.Parent = plr:WaitForChild("Torso") or plr:FindFirstChild("Torso")
+			bgui.Parent = player.Character.Torso
 			bgui.Size = UDim2.new(2,0,3,0)
 			bgui.AlwaysOnTop = true
 			local ESP = Instance.new("Frame")
@@ -969,8 +1172,7 @@ local function ZUIVWB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.M
 		for i,v in pairs(players) do
 			if v.Character then
 				if v.Character:WaitForChild("Torso"):FindFirstChild("BillboardGui") then
-					local plr = game.Workspace:FindFirstChild(v.Name)
-					local ESP = plr:WaitForChild("Torso",math.huge):WaitForChild("BillboardGui"):WaitForChild("Frame")
+					local ESP = v.Character.Torso.BillboardGui.Frame
 					if on then
 						ESP.Visible = true
 					else
@@ -1002,10 +1204,10 @@ local function ZUIVWB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.M
 		updateESP(game.Players:GetChildren())
 	end
 end
-local function QQBOUEK_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.NPCESP.toggle.LocalScript
+local function CVWCCNQ_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG3.Menu.NPCESP.toggle.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_toggle5"]
+    script.Parent = Converted["_toggle6"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -1020,9 +1222,8 @@ local function QQBOUEK_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.
 	
 	function createNPCESP(player)
 		if player:WaitForChild("Torso",math.huge):FindFirstChild("BillboardGui") == nil then
-			print(player)
 			local bgui = Instance.new("BillboardGui")
-			bgui.Parent = player:WaitForChild("Torso")
+			bgui.Parent = player.Torso
 			bgui.Size = UDim2.new(2,0,3,0)
 			bgui.AlwaysOnTop = true
 			local ESP = Instance.new("Frame")
@@ -1038,8 +1239,7 @@ local function QQBOUEK_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.
 		for i,v in pairs(players) do
 			if v then
 				if v:WaitForChild("Torso",math.huge):FindFirstChild("BillboardGui") then
-					local plr = v
-					local ESP = plr:WaitForChild("Torso",math.huge):WaitForChild("BillboardGui"):WaitForChild("Frame")
+					local ESP = v.Torso.BillboardGui.Frame
 					if on then
 						ESP.Visible = true
 					else
@@ -1062,15 +1262,17 @@ local function QQBOUEK_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.
 	
 	while task.wait() do
 		for i,v in pairs(game.Workspace.NPCs:GetChildren()) do
-			createNPCESP(v)
+			if v then
+				createNPCESP(v)
+			end
 		end
 		updateNPCESP(game.Workspace.NPCs:GetChildren())
 	end
 end
-local function UQAT_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.ItemESP.toggle.LocalScript
+local function LEEM_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG3.Menu.ItemESP.toggle.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_toggle6"]
+    script.Parent = Converted["_toggle7"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -1085,7 +1287,6 @@ local function UQAT_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Mai
 	
 	function createItemESP(player)
 		if player:FindFirstChild("BillboardGui") == nil then
-			print(player)
 			local bgui = Instance.new("BillboardGui")
 			bgui.Parent = player
 			bgui.Size = UDim2.new(1,0,1,0)
@@ -1132,7 +1333,46 @@ local function UQAT_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Mai
 		updateItemESP(game.Workspace.Items:GetChildren())
 	end
 end
-local function JAEKN_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.prenextpg.Prev.LocalScript
+local function RFOHP_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG3.Menu.NPCESP.toggle.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_toggle8"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local on = false
+	local lighting = game:GetService("Lighting")
+	
+	button.MouseButton1Click:Connect(function()
+		if on then
+			on = false
+			button.BackgroundColor3 = Color3.new(1,0.2,0.2)
+		else
+			on = true
+			button.BackgroundColor3 = Color3.new(0.2,1,0.2)
+		end
+	end)
+	
+	while task.wait() do
+		if on then
+			lighting.FogEnd = 100000
+			lighting.FogStart = 0
+			lighting.ClockTime = 14
+			lighting.Brightness = 2
+			lighting.GlobalShadows = false
+		else
+			lighting.GlobalShadows = true
+		end
+	end
+end
+local function XADFZNV_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.prenextpg.Prev.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Prev"]
@@ -1149,7 +1389,7 @@ local function JAEKN_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Ma
 		script.Parent.Parent.Value.Value -= 1
 	end)
 end
-local function QEOORJY_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.prenextpg.Next.LocalScript
+local function TEZMM_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.prenextpg.Next.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Next"]
@@ -1166,7 +1406,7 @@ local function QEOORJY_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.
 		script.Parent.Parent.Value.Value += 1
 	end)
 end
-local function MAGPQG_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.prenextpg.PG#.LocalScript
+local function JZCU_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.prenextpg.PG#.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_PG#"]
@@ -1186,32 +1426,250 @@ local function MAGPQG_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.M
 		if Value.Value < 1 then
 			Value.Value = 1
 		end
-		if Value.Value > 2 then
-			Value.Value = 2
+		if Value.Value > 3 then
+			Value.Value = 3
 		end
 		if Value.Value == 1 then
 			Main.PG1.Visible = true
 			Main.PG2.Visible = false
+			Main.PG3.Visible = false
 		end
 		if Value.Value == 2 then
 			Main.PG1.Visible = false
 			Main.PG2.Visible = true
+			Main.PG3.Visible = false
+		end
+		if Value.Value == 3 then
+			Main.PG1.Visible = false
+			Main.PG2.Visible = false
+			Main.PG3.Visible = true
 		end
 		script.Parent.Text = "PG. "..Value.Value
 	end
 end
+local function QPYYFS_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.VRCheck
+    local script = Instance.new("LocalScript")
+    script.Name = "VRCheck"
+    script.Parent = Converted["_Main"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
-coroutine.wrap(BLWO_fake_script)()
-coroutine.wrap(CFRK_fake_script)()
-coroutine.wrap(FOXUUB_fake_script)()
-coroutine.wrap(RAKVNW_fake_script)()
-coroutine.wrap(MFZAX_fake_script)()
-coroutine.wrap(QLHAGL_fake_script)()
-coroutine.wrap(LRUWJ_fake_script)()
-coroutine.wrap(ARAE_fake_script)()
-coroutine.wrap(ZUIVWB_fake_script)()
-coroutine.wrap(QQBOUEK_fake_script)()
-coroutine.wrap(UQAT_fake_script)()
-coroutine.wrap(JAEKN_fake_script)()
-coroutine.wrap(QEOORJY_fake_script)()
-coroutine.wrap(MAGPQG_fake_script)()
+	local VRS = game:GetService("VRService")
+	
+	if VRS.VREnabled then
+		script.Parent.Size = UDim2.new(1,0,1,0)
+	else
+		script.Parent.Size = UDim2.new(0,600,0,400)
+		script.Parent.Draggable = true
+		script.Parent.Active = true
+		script.Parent.notice.Visible = true
+	end
+end
+local function UUUHFN_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.npchbsizetxt.less.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_less"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Value.Value -= 1
+		print(script.Parent.Parent.Value.Value)
+	end)
+end
+local function QQGKIX_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.npchbsizetxt.more.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_more"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Value.Value += 1
+		print(script.Parent.Parent.Value.Value)
+	end)
+end
+local function DYFLQ_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.npchbsizetxt.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_npchbsizetxt"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Value = script.Parent.Value
+	Value.Value = 5
+	
+	while task.wait() do
+		if Value.Value < 5 then
+			Value.Value = 5
+		end
+		for i,v in pairs(game.Workspace.NPCs:GetChildren()) do
+			if v then
+				v:WaitForChild("Head",math.huge).Size = Vector3.new(Value.Value/10,Value.Value/10,Value.Value/10)
+			end
+		end
+		script.Parent.Text = "NPC Hitbox Size - "..Value.Value/10
+	end
+end
+local function ZAIAB_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.plrhbsizetxt.less.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_less1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Value.Value -= 1
+		print(script.Parent.Parent.Value.Value)
+	end)
+end
+local function AIWQZJ_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.plrhbsizetxt.more.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_more1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Value.Value += 1
+		print(script.Parent.Parent.Value.Value)
+	end)
+end
+local function WZWA_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.plrhbsizetxt.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_plrhbsizetxt"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Value = script.Parent.Value
+	Value.Value = 5
+	
+	while task.wait() do
+		if Value.Value < 5 then
+			Value.Value = 5
+		end
+		for i,v in pairs(game.Players:GetChildren()) do
+			if v ~= game.Players.LocalPlayer then
+				if v.Character then
+					v.Character:WaitForChild("Head").Size = Vector3.new(Value.Value/10,Value.Value/10,Value.Value/10)
+				end
+			end
+		end
+		script.Parent.Text = "Player Hitbox Size - "..Value.Value/10
+	end
+end
+local function OGNEZ_fake_script() -- Fake Script: StarterGui.HackerooOVRMenu.Main.PG2.Menu.aimbottxt.toggle.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_toggle9"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local on = false
+	local RightArm = game.Workspace:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Right Arm")
+	local UIS = game:GetService("UserInputService")
+	local Offset = CFrame.new(0,2,0)
+	local Players = game:GetService("Players")
+	
+	button.MouseButton1Click:Connect(function()
+		if on then
+			on = false
+			button.BackgroundColor3 = Color3.new(1,0.2,0.2)
+		else
+			on = true
+			button.BackgroundColor3 = Color3.new(0.2,1,0.2)
+		end
+	end)
+	
+	while task.wait() do
+		local closestDistance = math.huge
+		for i,v in pairs(game.Players:GetChildren()) do
+			if v ~= game.Players.LocalPlayer then
+				if v.Character then
+					local distance = (game.Players.LocalPlayer.Character.Head.Position-v.Character:WaitForChild("Head").Position).magnitude
+					if distance < closestDistance and v.Character.Humanoid.Health > 0 then
+						closestDistance = distance
+						closestPlayer = v.Character
+					end
+				end
+			end
+		end
+		if on then
+			if UIS:IsGamepadButtonDown(Enum.UserInputType.Gamepad1,Enum.KeyCode.ButtonA) then
+				RightArm.CFrame = CFrame.new(RightArm.CFrame.Position, closestPlayer.Head.CFrame.Position) * CFrame.fromEulerAnglesXYZ(math.rad(90), 0, 0)
+			end
+		end
+	end
+end
+
+coroutine.wrap(IITXY_fake_script)()
+coroutine.wrap(GMDT_fake_script)()
+coroutine.wrap(PUZENDD_fake_script)()
+coroutine.wrap(VSDSWFY_fake_script)()
+coroutine.wrap(QUTT_fake_script)()
+coroutine.wrap(GTPML_fake_script)()
+coroutine.wrap(DCHBBS_fake_script)()
+coroutine.wrap(CVWCCNQ_fake_script)()
+coroutine.wrap(LEEM_fake_script)()
+coroutine.wrap(RFOHP_fake_script)()
+coroutine.wrap(XADFZNV_fake_script)()
+coroutine.wrap(TEZMM_fake_script)()
+coroutine.wrap(JZCU_fake_script)()
+coroutine.wrap(QPYYFS_fake_script)()
+coroutine.wrap(UUUHFN_fake_script)()
+coroutine.wrap(QQGKIX_fake_script)()
+coroutine.wrap(DYFLQ_fake_script)()
+coroutine.wrap(ZAIAB_fake_script)()
+coroutine.wrap(AIWQZJ_fake_script)()
+coroutine.wrap(WZWA_fake_script)()
+coroutine.wrap(OGNEZ_fake_script)()
